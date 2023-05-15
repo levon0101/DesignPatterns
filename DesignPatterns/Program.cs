@@ -1,5 +1,6 @@
 ﻿using System;
 using DesignPatterns.SOLID;
+using DesignPatterns.SOLID.DependencyInversion;
 using DesignPatterns.SOLID.LiskovSubstitution;
 using DesignPatterns.SOLID.OpenClosed;
 
@@ -11,8 +12,8 @@ internal class Program
     {
         // SingleResponsibility.Run();
         // OpenClosed.Run();
-        LiskovSubstitution.Run();
-        
+        // LiskovSubstitution.Run();
+        DependencyInversion.Run();
         
         Console.ReadKey();
     }
