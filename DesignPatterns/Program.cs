@@ -1,4 +1,5 @@
 ﻿using System;
+using DesignPatterns.Creational.Builder;
 using DesignPatterns.SOLID;
 using DesignPatterns.SOLID.DependencyInversion;
 using DesignPatterns.SOLID.LiskovSubstitution;
@@ -13,8 +14,10 @@ internal class Program
         // SingleResponsibility.Run();
         // OpenClosed.Run();
         // LiskovSubstitution.Run();
-        DependencyInversion.Run();
-        
+        //DependencyInversion.Run();
+
+        BuilderExample.Run();
+
         Console.ReadKey();
     }
 }
