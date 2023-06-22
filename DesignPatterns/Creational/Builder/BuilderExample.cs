@@ -31,5 +31,10 @@ public static class BuilderExample
 
         #endregion End Fluent Builder
 
+        #region Fluent Builder With Recursive Generics
+
+        FluentBuilderWithRecursiveGenerics.Run();
+        #endregion Fluent Builder With Recursive Generics
+
     }
 }
