@@ -18,6 +18,8 @@ public static class BuilderExample
 
         #endregion End Builder
 
+
+
         #region Fluent Builder
 
         HtmlElementFluentBuilder htmlFluentBuilder = new HtmlElementFluentBuilder("ul");
@@ -31,16 +33,28 @@ public static class BuilderExample
 
         #endregion End Fluent Builder
 
+
+
         #region Fluent Builder With Recursive Generics
 
         FluentBuilderWithRecursiveGenerics.Run();
         #endregion Fluent Builder With Recursive Generics
+
+
 
         #region Stepwise builder
 
         StepwiseBuilder.Run();
 
         #endregion END Stepwise builder
+
+
+
+        #region Facade builder
+
+        FacetedBuilder.Run();
+
+        #endregion END Facade builder
 
     }
 }
